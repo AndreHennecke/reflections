@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced
+You can see your the parts you changed and possible bugs inside them, e.g. typos
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can learn from history, e.g. how features are added or failures
+
+What do you think are the pros and cons óf manually choosing when to create a commit, like you do in Git, vs having version automatically saved, like Google Docs does?
+You can choose when to commit a file, mainly when changes have complited in one logic feature. If the file gets automatically saved, it can be saved at any time, even if the file is in a shape where the programm isn't working or isn't compiling.
+
+Why do you htink some version control systems, like Git, allow saving multiple files in one commit, while other, like Google Docs, treat each file separately?
+VCS like Google Docs have its focus on documents not on programming. Often documents are not related to each other, there are exceptions to this, like using Latex or writting a big book with several chapters. It might be useful to commit all files / chapters at once, to have a better overview of the changes.
+In programming, files are often depending on each other, e.g. changing the definition of a function in one file, which is called in one or more other files. Its important to commit all files at once to get have a better overview of a logical change which may involves several files.
+
+How can you use the commands git log and git diff to view the history of files?
+git log can be used to get an overview about all commits, including the commit message. With git diff you can check the changes between two commits
+
+How might using version control make you more confident to make changes that could break something?
+You can easily get up to a running state
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Using it for programming projects and Phd
